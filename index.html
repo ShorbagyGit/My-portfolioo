@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Gasser Elshorbagy</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+      
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 10px;
+            transition: color 0.3s ease, font-size 0.3s ease;  /* Added transition */
+        }
+
+        h1:hover {
+        color: #da533b;  /* Change color on hover (tomato red for example) */
+        font-size: 3.3rem; /* Enlarge text on hover */
+        }
+ 
+        h2 {
+           
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            transition: color 0.3s ease, font-size 0.3s ease;  /* Added transition */
+        }
+
+        h2:hover{
+            font-size: 2.3rem;
+        color:#da533b;
+        }
+        ul {
+            font-size: 2rem;
+            list-style: none;
+            text-align: center;
+            padding: 0;
+            color: #311616;
+            margin: 20px auto;        
+        }
+  
+        .social_links {
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+            padding: 10px;
+        }
+
+        .social_links a {
+            display: inline-block;
+            width: 44px;
+            height: 44px;
+        }
+
+        .social_links img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+
+        .social_links a:hover img {
+            transform: scale(1.1);
+        }
+        .button-allign{
+            display: flex;
+      justify-content: center; /* Horizontally center */
+      align-items: center; /* Vertically center */
+    
+      gap: 22px; 
+       
+        }
+
+
+/* Style the button */
+.resume-btn {
+  padding: 14px 28px; 
+  font-size: 18px; /* Increase the font size */
+  background-color: #00bcd4; 
+
+  color: white; /* White text */
+  border-radius: 22px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Add hover effect for the button */
+.resume-btn:hover {
+  background-color: #da533b; /* Darker green when hovered */
+}
+
+            p {
+        font-size: 18px;                   
+        text-align: center;                 
+        margin: 20px auto;                   
+        padding: 15px;                     
+        border-radius: 10px;                 
+        max-width: 800px;                   
+        transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    }
+
+    p:hover {
+        transform: scale(1.2);               
+        color: #da533b;                      
+        cursor: pointer;                  
+    }
+    footer {
+            background-color: #333333; /* Dark background color */
+            color: white;            /* White text */
+            padding: 20px;           /* Padding around the content */
+            text-align: center;      /* Center text */
+            font-family: Arial, sans-serif; /* Font styling */
+        }
+
+        .contact-info {
+            display: flex;           /* Flexbox for horizontal layout */
+            justify-content: center; /* Center the items horizontally */
+            gap: 40px;               /* Space between the two items */
+            align-items: center;     /* Vertically align the items */
+        }
+
+        footer a {
+            color: #00bcd4;          /* Light blue color for links */
+            text-decoration: none;   /* No underline on links */
+            font-weight: bold;       /* Make the links bold */
+        }
+     
+       </style>
+
+</head>
+<body>
+
+    <div class="social_links">
+
+        
+        <a href="https://www.linkedin.com/in/gasser-shorbagy"  title="LinkedIn">
+            <img src="https://cliply.co/wp-content/uploads/2021/02/372102050_LINKEDIN_ICON_TRANSPARENT_1080.gif" alt="LinkedIn Logo">
+        </a>
+        <a href="https://www.facebook.com/gasser.elshorbagy?mibextid=ZbWKwL"  title="Facebook">
+            <img src="https://cliply.co/wp-content/uploads/2019/07/371907490_FACEBOOK_ICON_TRANSPARENT_400.gif" alt="Facebook Logo">
+        </a>
+        <a href="https://www.instagram.com/gasser_elshorbagy/profilecard/?igsh=MWN6Zmw3NndlMWxiag=="  title="Instagram">
+            <img src="https://cliply.co/wp-content/uploads/2019/07/371907300_INSTAGRAM_ICON_TRANSPARENT_400.gif" alt="Instagram Logo">
+        </a>
+
+        <a href="https://github.com/ShorbagyGit"  title="github">
+            <img src="https://camo.githubusercontent.com/c404efd07d43c2ddd08fda5ee979325823eb5140b62beeb94276587db6a22d3d/68747470733a2f2f6173736574732d76322e6c6f7474696566696c65732e636f6d2f612f66363234383161342d313137322d313165652d616137632d3233326630303864666231342f536c346654566e68514c2e676966" alt="github Logo">
+        </a>
+    
+    </div>
+    <h1 >Hello, My Name is Gasser Elshorbagy</h1>
+    <h2> I am a Fullstack Developer</h2>
+
+    
+    <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 30px;">Skills</h2>
+
+    <div class="skills-container" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px;">
+
+      <!-- Skill: Java -->
+      <div class="skill-card" style="background-color: #fff; padding: 20px; width: 200px; border-radius: 10px; box-shadow: 0 5px 15px rgba(121, 86, 197, 0.19); text-align: center;">
+        <h3 style="font-size: 1.5rem; color: #da533b;">Java</h3>
+        <p style="color: #666;">skilled in java programing with experience in developing testing and maintain efficient software solution. Eager to apply object-oriented programming principles in real-world projects</p>
+    </div>
+          <!-- Skill: JDBC -->
+          <div class="skill-card" style="background-color: #fff; padding: 20px; width: 200px; border-radius: 10px; box-shadow: 0 5px 15px rgba(121, 86, 197, 0.19); text-align: center;">
+            <h3 style="font-size: 1.5rem; color: #da533b;">JDBC</h3>
+            <p style="color: #666;">Used JDBC to connect Java applications to databases, enabling data retrieval, insertion, and updates with SQL queries and prepared statements.</p>
+        </div>
+        <!-- Skill: HTML -->
+        <div class="skill-card" style="background-color: #fff; padding: 20px; width: 200px; border-radius: 10px; box-shadow: 0 5px 15px rgba(121, 86, 197, 0.19); text-align: center;">
+            <h3 style="font-size: 1.5rem; color: #da533b;">HTML</h3>
+            <p style="color: #666;">Created and structured web pages using HTML to ensure clean, semantic markup and optimized user interfaces, integrating forms and multimedia for dynamic content </p>
+        </div>
+
+        <!-- Skill: CSS -->
+        <div class="skill-card" style="background-color: #fff; padding: 20px; width: 200px; border-radius: 10px; box-shadow: 0 5px 15px rgba(121, 86, 197, 0.19); text-align: center;">
+            <h3 style="font-size: 1.5rem; color: #da533b;">MS SQL</h3>
+            <p style="color: #666;">I studied Microsoft SQL Server, developing a strong foundation in database design. Gained practical experience through various projects</p>
+        </div>
+
+        <!-- Skill: Servlets -->
+        <div class="skill-card" style="background-color: #fff; padding: 20px; width: 200px; border-radius: 10px; box-shadow: 0 5px 15px rgba(121, 86, 197, 0.19); text-align: center;">
+            <h3 style="font-size: 1.5rem; color: #da533b;">Servlets</h3>
+            <p style="color: #666;">Developed server-side Java Servlets to handle business logic, process HTTP requests, and integrate with HTML forms for data validation and customized responses.</p>
+        </div>
+        
+    </div>
+    <br><br><br><br><br>
+    <div  class="button-allign">
+    <a href="https://github.com/ShorbagyGit/cv/blob/main/resume.pdf"> <button  class="resume-btn">My Resume</button>
+      </a>
+      <a href="https://shorbagygit.github.io/web/src/webapp/index.html "> <button  class="resume-btn">shopping-webapp-sample</button>
+      </a>
+    </div>
+      
+
+        <br><br><br><br><br><br><br><br><br><br>
+        <footer class="contact-info">
+            <h3>Contact me: <a href="tel:+201032658345">01032658345</a></h3>
+            <h3>Send email: <a href="mailto:shorbagygasser@gmail.com">shorbagygasser@gmail.com</a></h3>
+        </footer>
+        
+
+</body>
+</html>
